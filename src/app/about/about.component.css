@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .about .img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    /* margin-left: 100px; */
+  }
+  .college .info p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: x-large;
+    text-align: center;
+  }
+  .college {
+    /* background-image: url("im.jpg"); */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+  }
+  .college .card-body .card-text{
+    text-align: center;
+  }
+  .card {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 28px;
+    overflow: hidden;
+  }
+  .card img {
+    border: 1px solid black;
+    border-radius: 28px;
+    padding-top: 1px;
+  }
+  .why {
+    /* background-image: url("bgcon.jpg"); */
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .why .card {
+    color: #000;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    justify-content: space-evenly;
+    /* margin-right: -10px; */
+    margin-left: 100px;
+    border-radius: 15px;
+  }
+  .why .card .card-title {
+    text-align: center;
+  }
+  .why .card .card-text {
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 15px;
+  }
+  .why .card img {
+    margin-left: 15px;
+  }
+  .departments {
+    /* background-image: url("bg2.jpg"); */
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .departments img {
+    display: inline-block;
+    /* margin-right: 75px; */
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-bottom: 25px;
+  }
+  .departments h2 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  .rd {
+    border: 1px solid black;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 25px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    background-image: url("../../assets/Images/bg2.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .body {
+    background-image: url("../../assets/Images/im.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+  

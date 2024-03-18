@@ -1,0 +1,172 @@
+<div class="main">
+  <br />
+  <form [formGroup]="register" (ngSubmit)="onSubmit($event)">
+    <p style="text-align: center; font-size: x-large">
+      <strong>Registration Page</strong>
+    </p>
+    <div class="row">
+      <div class="col-6">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          formControlName="name"
+          autocomplete="given-name"
+          placeholder="Name"
+        />
+      </div>
+      <div class="col-6">
+        <label for="mail_id">Email</label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          formControlName="email"
+          placeholder="Email"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <label for="father_name">Father Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="father_name"
+          formControlName="father_name"
+          placeholder="Father Name"
+        />
+      </div>
+      <div class="col-6">
+        <label for="mname">Mother Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="mother_name"
+          formControlName="mother_name"
+          placeholder="Mother Name"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <label for="address">Address</label>
+        <input
+          type="text"
+          class="form-control"
+          id="address"
+          formControlName="address"
+          autocomplete="given-name"
+          placeholder="Address"
+        />
+      </div>
+      <div class="col-6">
+        <label for="number1">Conatct Number1</label>
+        <input
+          type="text"
+          class="form-control"
+          id="number1"
+          formControlName="number1"
+          placeholder="contact number1"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <label for="number2">Conatct Number2</label>
+        <input
+          type="text"
+          class="form-control"
+          id="number2"
+          formControlName="number2"
+          placeholder="contact number2"
+        />
+      </div>
+      <div class="col-6">
+        <label for="dob">DOB</label>
+        <input
+          type="date"
+          class="form-control"
+          id="dob"
+          formControlName="dob"
+          placeholder="date of birth"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <label for="tenthmark">10th Total Mark</label>
+        <input
+          type="number"
+          class="form-control"
+          id="tenthmark"
+          formControlName="tenthmark"
+          placeholder="SSLC mark"
+        />
+      </div>
+      <div class="col-6">
+        <label for="twelfth">12th total Mark</label>
+        <input
+          type="number"
+          class="form-control"
+          id="twelfth"
+          formControlName="twelfth"
+          placeholder="HSC mark"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <label for="pmark" class="marks">Physics Mark</label>
+        <input
+          type="number"
+          class="form-control markb"
+          formControlName="pmark"
+          id="pmark"
+        />
+      </div>
+      <div class="col-4">
+        <label for="cmark" class="marks">Chemistry Mark</label>
+        <input
+          type="number"
+          class="form-control markb"
+          formControlName="cmark"
+          id="cmark"
+        />
+      </div>
+      <div class="col-4">
+        <label for="mmark" class="marks">Maths Mark</label>
+        <input
+          type="number"
+          class="form-control markb"
+          formControlName="mmark"
+          id="mmark"
+        />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <div class="mb-3">
+          <label for="formFileDisabled" class="form-label"
+            >Disabled file input example</label
+          >
+          <input class="form-control" type="file" id="formFileDisabled" />
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="row">
+      <div class="col-6">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+      <div class="col-6">
+        <button type="reset" id="resetButton" class="btn btn-danger">
+          Reset
+        </button>
+      </div>
+    </div>
+    <br />
+  </form>
+  <br />
+</div>

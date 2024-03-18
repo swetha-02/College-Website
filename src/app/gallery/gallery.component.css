@@ -1,0 +1,103 @@
+.depts {
+    /* border: 1px solid black; */
+    margin-right: 50px;
+    margin-left: 50px;
+    
+    /* margin-bottom: 10px; */
+  }
+  .depts img {
+    margin-right: 35px;
+    margin-left: 25px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    
+  }
+  .sport {
+    /* border: 1px solid black; */
+    /* margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 150px;
+    margin-top: 150px; */
+    margin-right: 50px;
+    margin-left: 50px;
+    /* margin-bottom: 10px; */
+  }
+  .sport img {
+    margin-right: 45px;
+    margin-left: 15px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+  }
+  .sport video {
+    margin-bottom: 10px;
+    
+  }
+  .eve {
+    /* border: 1px solid black; */
+    margin-right: 50px;
+    margin-left: 50px;
+    /* margin-bottom: 10px; */
+  }
+  .eve img {
+    margin-right: 160px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+    /* padding-top: 10px; */
+    /* margin-bottom: 10px; */
+  }
+  .eve iframe
+  {
+    /* margin-top: 60px; */
+    margin-left: 260px;
+  }
+  .al {
+    /* border: 1px solid black; */
+    margin-right: 50px;
+    margin-left: 50px;
+    /* margin-top: 50px; */
+    /* padding-bottom: 10px; */
+    /* padding-top: 10px; */
+  }
+  .al img {
+    margin-right: 155px;
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .al iframe {
+    margin-bottom: 5px;
+    margin-left: 255px;
+  }
+  .text-box {
+    width: 90%;
+    color: black;
+    position: relative;
+    margin: auto;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    top: 5%;
+    right:5%;
+    justify-content: center;
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 25px;
+    background-color:darkgrey ;
+  }
+  .text-box h1 {
+    font-size: 70px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .text-box p {
+    font-size: 20px;
+    margin: 10px 0 40px;
+    color: red;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-decoration: none;
+  }
+  .body{
+    background-color: #B5C0D0;
+  }
+  .body h2{
+    text-decoration: underline;
+  }

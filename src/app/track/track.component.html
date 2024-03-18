@@ -1,0 +1,64 @@
+<div class="main">
+  <br />
+  <form #loginform="ngForm">
+    <h3 style="text-align: center">
+      <strong>Track the Registered Application</strong>
+    </h3>
+    <div class="form-group">
+      <label for="formGroupExampleInput">Application Track Number:</label>
+      <input
+        type="text"
+        class="form-control"
+        id="app_track_num"
+        placeholder="Track Number"
+        required
+        pattern="^[A-Za-z0-9_-]+$"
+        [(ngModel)]="app_track_num_val"
+        name="app_track_num"
+        #app_track_num="ngModel"
+      />
+      <div *ngIf="app_track_num.errors?.['required']">
+        <span>*</span>Please enter Application track number<span>*</span>
+      </div>
+      <div *ngIf="app_track_num.errors?.['pattern']">
+        <span>*</span>Please enter valid Application track number<span>*</span>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="formGroupExampleInput2">Mobile Number:</label>
+      <input
+        type="text"
+        class="form-control"
+        id="mob_num"
+        placeholder="Mobile Number"
+        required
+        pattern="^[9876]{1}[0-9]{9}$"
+        [(ngModel)]="mob_num_val"
+        name="mob_num"
+        #mob_num="ngModel"
+      />
+      <div *ngIf="mob_num.errors?.['required']">
+        <span>*</span>Please enter Mobile number<span>*</span>
+      </div>
+      <div *ngIf="mob_num.errors?.['pattern']">
+        <span>*</span>Please enter valid Mobile number<span>*</span>
+      </div>
+      <br />
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <button
+          type="submit"
+          [disabled]="!loginform.form.valid"
+          class="btn btn-primary btn2"
+        >
+          SUBMIT
+        </button>
+      </div>
+      <div class="col-6">
+        <button type="reset" class="btn btn-danger btn2">RESET</button>
+      </div>
+    </div>
+  </form>
+  <br />
+</div>
